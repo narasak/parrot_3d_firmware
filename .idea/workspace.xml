@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Initial Klipper Configuration for Parrot 3D">
-      <change afterPath="$PROJECT_DIR$/Klipper/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Klipper/backup" afterDir="false" />
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Disable timeout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klipper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Klipper/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klipper/printer.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Klipper/printer.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1598329876855" duration="5000" />
       <workItem from="1598351810693" duration="35000" />
       <workItem from="1598351937337" duration="852000" />
-      <workItem from="1598366050807" duration="1561000" />
+      <workItem from="1598366050807" duration="3177000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Parrot 3D Firmware V.1.0.0">
       <created>1597049645130</created>
@@ -89,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598329147161</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Klipper Configuration for Parrot 3D">
+      <created>1598371423416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598371423416</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Disable timeout">
+      <created>1598371516058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598371516058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,17 +125,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Parrot 3D Firmware V.1.0.0" />
     <MESSAGE value="Initial Klipper Configuration for Parrot 3D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Klipper Configuration for Parrot 3D" />
+    <MESSAGE value="Disable timeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Disable timeout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1469" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598351821081">
       <screen x="0" y="23" width="3440" height="1337" />
     </state>
     <state x="1469" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3440.1337@0.23.3440.1337" timestamp="1598351821081" />
-    <state x="496" y="295" key="Vcs.Push.Dialog.v2" timestamp="1598329149941">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state x="952" y="381" key="Vcs.Push.Dialog.v2" timestamp="1598371517218">
+      <screen x="0" y="23" width="3440" height="1337" />
     </state>
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1597049648121" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1598329149941" />
+    <state x="952" y="381" key="Vcs.Push.Dialog.v2/0.23.3440.1337@0.23.3440.1337" timestamp="1598371517218" />
   </component>
 </project>

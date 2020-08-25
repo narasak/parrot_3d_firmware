@@ -32,3 +32,6 @@ Turn the fan on at 40% of speed
 * PID_CALIBRATE HEATER=heater_bed TARGET=60
 * SAVE_CONFIG
 
+## Step 6
+### Resonance Compensation
+https://www.youtube.com/watch?v=pH-1RWdC75E&feature=youtu.be&fbclid=IwAR3CI05CQ0_OmWbSI0z5wtWuL_d76EYzIPl3EeIlkukILumfWBFTzruRg_U

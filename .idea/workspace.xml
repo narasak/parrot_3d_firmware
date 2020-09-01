@@ -19,7 +19,158 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update PID Tuning for Heated Bed" />
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update PID Tuning for Heated Bed">
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/BIGTREE_TFT35_V3.0.26.x.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/001_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/01_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/100_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/10_degree.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/10_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/1_degree.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/1_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/5_degree.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/BLTouch.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/BabyStep.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Back.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/BigTreeTech.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/CoolDown.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Custom.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Dec.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Disconnect.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Extrude.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Fan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Folder.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Heat.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Heat_Fan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Home.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Home_Move.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Inc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/InfoBox.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Language.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Leveling.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Load.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Logo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/MainMenu.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/More.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Move.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Nozzle.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Page_down.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Page_up.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Pause.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Percentage.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Point_1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Point_2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Point_3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Point_4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Point_5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Preheat_Both.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Print.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_Blue.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_Green.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_Off.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_Red.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_Settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/RGB_White.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Resume.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Status_Bed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Status_Fan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Status_Nozzle.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Stop.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/U_Disk.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/Unload.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/apply.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/baud_rate.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bkcolor.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bltouch_deploy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bltouch_repeat.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bltouch_reset.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bltouch_stow.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/bltouch_test.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/chamber.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/connection_settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/disable_steppers.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_100_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_10_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_10_percent.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_1_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_1_percent.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_200_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_5_mm.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/e_5_percent.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/eeprom_reset.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/eeprom_restore.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/eeprom_save.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/extrude_100.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/fan_full_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/fan_half_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/fast_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/feature_settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/file.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/fontcolor.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/gcode.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/global_bed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/global_chamber.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/global_nozzle.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/level_edge_distance.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/leveling_off.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/leveling_on.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/machine_settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/manual_level.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/marlin.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/normal_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/nozzle_down.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/nozzle_up.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/onboard_sd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/ontft_sd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/parameter.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/pid.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/preheat.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_bed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_fan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_flow.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_nozzle.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_timer.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/printing_zlayer.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/probe_offset.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/reset_value.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/rotate_ui.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/s_load.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/s_save.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/screen_info.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/screen_settings.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/shut_down.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/slow_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/sound.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/status_flow.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/status_speed.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/touchscreen_adjust.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/tuning.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/x_dec.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/x_home.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/x_inc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/y_dec.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/y_home.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/y_inc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/z_dec.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/z_fade.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/z_home.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/bmp/z_inc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/font/byte_ascii.fon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/font/large_byte_ascii.fon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/font/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/TFT35/font/word_unicode.fon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BTT TFT35/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Klipper/printer.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Klipper/printer.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marlin/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Marlin/Configuration.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Marlin/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Marlin/Configuration_adv.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,9 +191,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -69,7 +220,15 @@
       <workItem from="1598329876855" duration="5000" />
       <workItem from="1598351810693" duration="35000" />
       <workItem from="1598351937337" duration="852000" />
-      <workItem from="1598366050807" duration="3497000" />
+      <workItem from="1598366050807" duration="3585000" />
+      <workItem from="1598438069198" duration="10000" />
+      <workItem from="1598438099335" duration="1276000" />
+      <workItem from="1598497007539" duration="7000" />
+      <workItem from="1598633206105" duration="819000" />
+      <workItem from="1598665428881" duration="1515000" />
+      <workItem from="1598671532619" duration="2462000" />
+      <workItem from="1598859086892" duration="24000" />
+      <workItem from="1598950079958" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Parrot 3D Firmware V.1.0.0">
       <created>1597049645130</created>
@@ -113,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598373299340</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update PID Tuning for Heated Bed">
+      <created>1598373424094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598373424094</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,11 +311,19 @@
       <screen x="0" y="23" width="3440" height="1337" />
     </state>
     <state x="1469" y="500" key="#com.intellij.fileTypes.FileTypeChooser/0.23.3440.1337@0.23.3440.1337" timestamp="1598351821081" />
-    <state x="952" y="381" key="Vcs.Push.Dialog.v2" timestamp="1598373300468">
+    <state x="2069" y="434" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598438073579">
+      <screen x="0" y="23" width="3440" height="1337" />
+    </state>
+    <state x="2069" y="434" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.3440.1337@0.23.3440.1337" timestamp="1598438073579" />
+    <state x="952" y="381" key="Vcs.Push.Dialog.v2" timestamp="1598373425353">
       <screen x="0" y="23" width="3440" height="1337" />
     </state>
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1597049648121" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1598329149941" />
-    <state x="952" y="381" key="Vcs.Push.Dialog.v2/0.23.3440.1337@0.23.3440.1337" timestamp="1598373300468" />
+    <state x="952" y="381" key="Vcs.Push.Dialog.v2/0.23.3440.1337@0.23.3440.1337" timestamp="1598373425353" />
+    <state x="100" y="123" width="1592" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598668376892">
+      <screen x="0" y="23" width="1792" height="1017" />
+    </state>
+    <state x="100" y="123" width="1592" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1598668376892" />
   </component>
 </project>

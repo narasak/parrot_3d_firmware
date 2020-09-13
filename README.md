@@ -5,7 +5,7 @@
 
 Parrot 3D Firmware is next level for Parrot 3D Printer base on Marlin Firmware 2.x.
 
-Download earlier versions of Marlin on the [Releases page](https://github.com/narasak/giraffe_3d_printer/releases).
+Download earlier versions of firmware on the [Releases page](https://github.com/narasak/parrot_3d_firmware/releases).
 
 ## License
 

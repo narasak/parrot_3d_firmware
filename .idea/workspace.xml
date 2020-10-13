@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Increase reliability of auto bed leveling">
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Fixed X_STALL_SENSITIVITY value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +90,8 @@
       <workItem from="1599968987277" duration="11000" />
       <workItem from="1599998651536" duration="6092000" />
       <workItem from="1600074895585" duration="32000" />
+      <workItem from="1600916014337" duration="481000" />
+      <workItem from="1600924897248" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Parrot 3D Firmware V.1.0.0">
       <created>1597049645130</created>
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600004594932</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed X_STALL_SENSITIVITY value">
+      <created>1600916074017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600916074017</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +197,8 @@
     <MESSAGE value="Update PID Tuning for Heated Bed" />
     <MESSAGE value="Add BIGTREETECH TFT3.5&quot; Firmware" />
     <MESSAGE value="Increase reliability of auto bed leveling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increase reliability of auto bed leveling" />
+    <MESSAGE value="Fixed X_STALL_SENSITIVITY value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed X_STALL_SENSITIVITY value" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1469" y="500" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598351821081">
@@ -206,12 +214,12 @@
     </state>
     <state x="65" y="344" width="800" height="626" key="DiffContextDialog/0.23.1792.1044@0.23.1792.1044" timestamp="1599443353975" />
     <state x="124" y="443" width="1534" height="817" key="DiffContextDialog/0.23.3440.1364@0.23.3440.1364" timestamp="1599412041953" />
-    <state x="952" y="388" key="Vcs.Push.Dialog.v2" timestamp="1600004598274">
-      <screen x="0" y="23" width="3440" height="1364" />
+    <state x="496" y="302" key="Vcs.Push.Dialog.v2" timestamp="1600916075882">
+      <screen x="0" y="23" width="1792" height="1044" />
     </state>
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1597049648121" />
     <state x="496" y="295" key="Vcs.Push.Dialog.v2/0.23.1792.1017@0.23.1792.1017" timestamp="1598953583666" />
-    <state x="496" y="302" key="Vcs.Push.Dialog.v2/0.23.1792.1044@0.23.1792.1044" timestamp="1599443436815" />
+    <state x="496" y="302" key="Vcs.Push.Dialog.v2/0.23.1792.1044@0.23.1792.1044" timestamp="1600916075882" />
     <state x="952" y="381" key="Vcs.Push.Dialog.v2/0.23.3440.1337@0.23.3440.1337" timestamp="1598373425353" />
     <state x="952" y="388" key="Vcs.Push.Dialog.v2/0.23.3440.1364@0.23.3440.1364" timestamp="1600004598274" />
     <state x="192" y="157" width="3057" height="1096" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600003837100">

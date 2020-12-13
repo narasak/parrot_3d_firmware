@@ -23,7 +23,9 @@
 # NEVER put it in the repository
 _Version.h
 
+.idea
 .idea/
+.idea/workspace.xml
 
 #
 # OS

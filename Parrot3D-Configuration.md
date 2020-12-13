@@ -35,17 +35,17 @@
 | //#define Z_DRIVER_TYPE  A4988 | #define Z_DRIVER_TYPE  TMC2209 | Select Stepper Driver for Z-Axis |
 | //#define Z2_DRIVER_TYPE A4988 | #define Z2_DRIVER_TYPE TMC2209 | Select Stepper Driver for Z2-Axis |
 | //#define E0_DRIVER_TYPE A4988 | #define E0_DRIVER_TYPE TMC2209 | Select Stepper Driver for Extruder |
-| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 200, 200, 400, 830 } | Default Axis Steps Per Unit For 1.8 and BMG |
-| #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 } | #define DEFAULT_MAX_FEEDRATE          { 250, 250, 5, 40 } | Default Max Feed Rate |
-| #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      { 2500, 2500, 100, 10000 } | Default Max Acceleration change |
-| #define DEFAULT_ACCELERATION          3000 | #define DEFAULT_ACCELERATION          2000 | X, Y, Z and E acceleration for printing moves |
-| #define DEFAULT_RETRACT_ACCELERATION  3000 | #define DEFAULT_RETRACT_ACCELERATION  2000 | E acceleration for retracts |
-| #define DEFAULT_TRAVEL_ACCELERATION   3000 | #define DEFAULT_TRAVEL_ACCELERATION   2000 | X, Y, Z acceleration for travel (non printing) moves |
-| //#define CLASSIC_JERK | #define CLASSIC_JERK | Enabled Default Jerk limits |
-| #define DEFAULT_XJERK 10.0 | #define DEFAULT_XJERK 6.0 | Default Jerk limits (mm/s) |
-| #define DEFAULT_YJERK 10.0 | #define DEFAULT_YJERK 6.0 | Default Jerk limits (mm/s) |
-| #define DEFAULT_ZJERK  0.3 | #define DEFAULT_ZJERK  0.3 | Default Jerk limits (mm/s) |
-| #define DEFAULT_EJERK    5.0 | #define DEFAULT_EJERK    4.0 | Set Jerk limit on Extruder |
+| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 1660 } | Default Axis Steps Per Unit For 1.8 and BMG |
+| #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 } | #define DEFAULT_MAX_FEEDRATE          {200, 200, 12, 120} | Default Max Feed Rate |
+| #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      {2000, 2000, 200, 5000} | Default Max Acceleration change |
+| #define DEFAULT_ACCELERATION          3000 | #define DEFAULT_ACCELERATION          1250 | X, Y, Z and E acceleration for printing moves |
+| #define DEFAULT_RETRACT_ACCELERATION  3000 | #define DEFAULT_RETRACT_ACCELERATION  1250 | E acceleration for retracts |
+| #define DEFAULT_TRAVEL_ACCELERATION   3000 | #define DEFAULT_TRAVEL_ACCELERATION   1250 | X, Y, Z acceleration for travel (non printing) moves |
+| ~~//#define CLASSIC_JERK | #define CLASSIC_JERK | Enabled Default Jerk limits |
+| ~~#define DEFAULT_XJERK 10.0~~ | ~~#define DEFAULT_XJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
+| ~~#define DEFAULT_YJERK 10.0~~ | ~~#define DEFAULT_YJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
+| ~~#define DEFAULT_ZJERK  0.3~~ | ~~#define DEFAULT_ZJERK  0.3~~ | ~~Default Jerk limits (mm/s)~~ |
+| #define DEFAULT_EJERK    5.0 | #define DEFAULT_EJERK    4.5 | Set Jerk limit on Extruder |
 | ~~//#define S_CURVE_ACCELERATION~~ | ~~#define S_CURVE_ACCELERATION~~ | ~~Enabled S-Curve Acceleration Feature~~ |
 | #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN | //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN | Disabled Z-MIN pin end stop |
 | //#define USE_PROBE_FOR_Z_HOMING | #define USE_PROBE_FOR_Z_HOMING | Force the use of the probe for Z-axis homing |
@@ -120,7 +120,7 @@
 | //#define PROBE_OFFSET_WIZARD | #define PROBE_OFFSET_WIZARD | Add Probe Z Offset calibration to the Z Probe Offsets menu |
 | //#define LCD_INFO_MENU | #define LCD_INFO_MENU | Display Info Menu on Display |
 | //#define LED_CONTROL_MENU | #define LED_CONTROL_MENU | Display LEC Control Menu on Display |
-| #define LED_USER_PRESET_GREEN      128 | #define LED_USER_PRESET_GREEN      255 | |
+| #define LED_USER_PRESET_GREEN      128 | #define LED_USER_PRESET_GREEN      0 | |
 | #define LED_USER_PRESET_BLUE         0 | #define LED_USER_PRESET_BLUE       255 | |
 | //#define LED_USER_PRESET_STARTUP | #define LED_USER_PRESET_STARTUP | Have the printer display the user preset color on startup |
 | //#define STATUS_MESSAGE_SCROLLING | #define STATUS_MESSAGE_SCROLLING | Scroll a longer status message into view |
@@ -135,9 +135,9 @@
 | //#define MOVE_Z_WHEN_IDLE | #define MOVE_Z_WHEN_IDLE | Jump to the move Z menu on doubleclick when printer is idle |
 | #define MOVE_Z_IDLE_MULTIPLICATOR 1 | #define MOVE_Z_IDLE_MULTIPLICATOR 10 | Multiply 10mm by this factor for the move step size |
 | //#define BABYSTEP_ZPROBE_OFFSET | #define BABYSTEP_ZPROBE_OFFSET | Combine M851 Z and Babystepping | 
-| //#define LIN_ADVANCE | #define LIN_ADVANCE | Enabled Linear Pressure Control v1.5 |
-| #define LIN_ADVANCE_K 0.22 | #define LIN_ADVANCE_K 0.00 | Setup default LA 1.5 |
-| //#define EXPERIMENTAL_SCURVE | #define EXPERIMENTAL_SCURVE | Enable this option to permit S-Curve Acceleration |
+| ~~//#define LIN_ADVANCE~~ | ~~#define LIN_ADVANCE~~ | ~~Enabled Linear Pressure Control v1.5~~ |
+| ~~#define LIN_ADVANCE_K 0.22~~ | ~~#define LIN_ADVANCE_K 0.00~~ | ~~Setup default LA 1.5~~ |
+| ~~//#define EXPERIMENTAL_SCURVE~~ | ~~#define EXPERIMENTAL_SCURVE~~ | ~~Enable this option to permit S-Curve Acceleration~~ |
 | #define BLOCK_BUFFER_SIZE 16 | #define BLOCK_BUFFER_SIZE 32 | |
 | #define BUFSIZE 4 | #define BUFSIZE 32 | |
 | #define TX_BUFFER_SIZE 0 | #define TX_BUFFER_SIZE 32 | |
@@ -163,8 +163,8 @@
 | #define Z2_CURRENT      800 | #define Z2_CURRENT      450 | Set motor current |
 | #define CHOPPER_TIMING CHOPPER_DEFAULT_12V | #define CHOPPER_TIMING CHOPPER_09STEP_24V | Optimize spreadCycle chopper parameters |
 | //#define SENSORLESS_HOMING | #define SENSORLESS_HOMING | Enabled sensorless homing |
-| #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  90 | |
-| #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  100 | |
+| #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  75 | |
+| #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  75 | |
 | //#define IMPROVE_HOMING_RELIABILITY | #define IMPROVE_HOMING_RELIABILITY | |
 | //#define SQUARE_WAVE_STEPPING | #define SQUARE_WAVE_STEPPING | Create a 50/50 square wave step pulse optimal for stepper drivers |
 | //#define STARTUP_COMMANDS "M17 Z" | #define STARTUP_COMMANDS "M17 Z" | Enabled startup command |

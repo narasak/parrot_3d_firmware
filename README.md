@@ -9,7 +9,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 
 ## New Features
 * Now support NeoPixel LED upto 30 LED (Use with BigTreeTech DCDC V1.0 power module)
-* Disable Linear Advance and Enable S-Curve Acceleration
+* Enable Linear Advance with Enable S-Curve Acceleration
 * Disable Classic Jerk and Enable Junction Deviation Factor
 * Add Chris Warkocki's Custom Command
 
@@ -38,7 +38,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * P.I.N.D.A. 2
 
 ## LCD Controller
-* RERAP Discount Smart Controller
+* RepRapDiscount Smart Controller
 
 ## License
 

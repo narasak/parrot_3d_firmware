@@ -6,6 +6,7 @@
 
 | From     | To (SKR_1.4_TURBO) | Description |
 |----------|------------|------------|
+| **========== Board ==========** |||
 | //#define SERIAL_PORT_2 -1 | #define SERIAL_PORT_2 -1 | Enabled Serial Port |
 | #define MOTHERBOARD BOARD_RAMPS_14_EFB | #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO | Define Board For SKR 1.4 : #define MOTHERBOARD BOARD_BTT_SKR_V1_4 |
 | //#define CUSTOM_MACHINE_NAME "3D Printer | #define CUSTOM_MACHINE_NAME "Parrot 3D" | Change Printer Name |
@@ -18,40 +19,44 @@
 | #define TEMP_BED_RESIDENCY_TIME 10 | #define TEMP_BED_RESIDENCY_TIME 2 | |
 | #define TEMP_BED_WINDOW 1 | #define TEMP_BED_WINDOW 3 | |
 | #define TEMP_BED_HYSTERESIS 3 | #define TEMP_BED_HYSTERESIS 2 | |
+| **========== Temperature ==========** |||
 | #define HEATER_0_MAXTEMP 275 | #define HEATER_0_MAXTEMP 310 | Maximum Hot End Temp up to 310 C |
 | #define BED_MAXTEMP 150 | #define BED_MAXTEMP 135 | Maximum Heated Bed Temp up to 135 C |
-| #define DEFAULT_Kp  22.20 | #define DEFAULT_Kp  16.50 | Default Hot End PID (Kp Value) |
-| #define DEFAULT_Ki   1.08 | #define DEFAULT_Ki   1.16 | Default Hot End PID (Ki Value) |
-| #define DEFAULT_Kd 114.00 | #define DEFAULT_Kd  58.80 | Default Hot End PID (Kd Value) |
+| #define DEFAULT_Kp  22.20 | #define DEFAULT_Kp  28.53 | Default Hot End PID (Kp Value) |
+| #define DEFAULT_Ki   1.08 | #define DEFAULT_Ki   2.99 | Default Hot End PID (Ki Value) |
+| #define DEFAULT_Kd 114.00 | #define DEFAULT_Kd  68.08 | Default Hot End PID (Kd Value) |
 | //#define PIDTEMPBED | #define PIDTEMPBED | Enabled PID for Heated Bed |
-| #define DEFAULT_bedKp 10.00 | #define DEFAULT_bedKp 28.13 | Default Heated Bed PID (Kp Value) |
-| #define DEFAULT_bedKi .023 | #define DEFAULT_bedKi 2.09 | Default Heated Bed PID (Ki Value) |
-| #define DEFAULT_bedKd 305.4 | #define DEFAULT_bedKd 483.07 | Default Heated Bed PID (Kd Value) |
+| #define DEFAULT_bedKp 10.00 | #define DEFAULT_bedKp 36.23 | Default Heated Bed PID (Kp Value) |
+| #define DEFAULT_bedKi .023 | #define DEFAULT_bedKi 1.61 | Default Heated Bed PID (Ki Value) |
+| #define DEFAULT_bedKd 305.4 | #define DEFAULT_bedKd 543.04 | Default Heated Bed PID (Kd Value) |
 | #define EXTRUDE_MINTEMP 170 | #define EXTRUDE_MINTEMP 180 | Prevent extrusion if the temperature is below 180 C |
-| #define Z_MIN_ENDSTOP_INVERTING false | #define Z_MIN_ENDSTOP_INVERTING true | Invert Z Move Direction |
-| #define Z_MIN_PROBE_ENDSTOP_INVERTING false | #define Z_MIN_PROBE_ENDSTOP_INVERTING tue | Invert Z Probe Direction |
+| **========== Drivers ==========** |||
+| ~~#define Z_MIN_ENDSTOP_INVERTING false~~ | ~~#define Z_MIN_ENDSTOP_INVERTING true~~ | ~~Invert Z Move Direction~~ |
+| ~~#define Z_MIN_PROBE_ENDSTOP_INVERTING false~~ | ~~#define Z_MIN_PROBE_ENDSTOP_INVERTING tue~~ | ~~Invert Z Probe Direction~~ |
 | //#define X_DRIVER_TYPE  A4988 | #define X_DRIVER_TYPE  TMC2209 | Select Stepper Driver for X-Axis |
 | //#define Y_DRIVER_TYPE  A4988 | #define Y_DRIVER_TYPE  TMC2209 | Select Stepper Driver for Y-Axis |
 | //#define Z_DRIVER_TYPE  A4988 | #define Z_DRIVER_TYPE  TMC2209 | Select Stepper Driver for Z-Axis |
 | //#define Z2_DRIVER_TYPE A4988 | #define Z2_DRIVER_TYPE TMC2209 | Select Stepper Driver for Z2-Axis |
 | //#define E0_DRIVER_TYPE A4988 | #define E0_DRIVER_TYPE TMC2209 | Select Stepper Driver for Extruder |
-| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 1660 } | Default Axis Steps Per Unit For 1.8 and BMG |
+| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 1660 } | Default Axis Steps Per Unit For 0.9 and BMG |
 | #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 } | #define DEFAULT_MAX_FEEDRATE          {200, 200, 12, 120} | Default Max Feed Rate |
 | #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      {2000, 2000, 200, 5000} | Default Max Acceleration change |
 | #define DEFAULT_ACCELERATION          3000 | #define DEFAULT_ACCELERATION          1250 | X, Y, Z and E acceleration for printing moves |
 | #define DEFAULT_RETRACT_ACCELERATION  3000 | #define DEFAULT_RETRACT_ACCELERATION  1250 | E acceleration for retracts |
 | #define DEFAULT_TRAVEL_ACCELERATION   3000 | #define DEFAULT_TRAVEL_ACCELERATION   1250 | X, Y, Z acceleration for travel (non printing) moves |
-| ~~//#define CLASSIC_JERK | #define CLASSIC_JERK | Enabled Default Jerk limits |
+| ~~//#define CLASSIC_JERK~~ | ~~#define CLASSIC_JERK~~ | ~~Enabled Default Jerk limits~~ |
 | ~~#define DEFAULT_XJERK 10.0~~ | ~~#define DEFAULT_XJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
 | ~~#define DEFAULT_YJERK 10.0~~ | ~~#define DEFAULT_YJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
 | ~~#define DEFAULT_ZJERK  0.3~~ | ~~#define DEFAULT_ZJERK  0.3~~ | ~~Default Jerk limits (mm/s)~~ |
 | #define DEFAULT_EJERK    5.0 | #define DEFAULT_EJERK    4.5 | Set Jerk limit on Extruder |
-| ~~//#define S_CURVE_ACCELERATION~~ | ~~#define S_CURVE_ACCELERATION~~ | ~~Enabled S-Curve Acceleration Feature~~ |
+| #define JUNCTION_DEVIATION_MM 0.013 | #define JUNCTION_DEVIATION_MM 0.010 | // (0.010 mm) Distance from real junction edge |
+| //#define S_CURVE_ACCELERATION | #define S_CURVE_ACCELERATION | Enabled S-Curve Acceleration Feature |
+| **========== Probe ==========** |||
 | #define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN | //#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN | Disabled Z-MIN pin end stop |
 | //#define USE_PROBE_FOR_Z_HOMING | #define USE_PROBE_FOR_Z_HOMING | Force the use of the probe for Z-axis homing |
 | //#define FIX_MOUNTED_PROBE | #define FIX_MOUNTED_PROBE | Enabled P.I.N.D.A 2 Probe |
 | #define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } | #define NOZZLE_TO_PROBE_OFFSET { 23, 5, 0 } | Set Nozzle-to-Probe offsets for BMG |
-| #define XY_PROBE_SPEED (133*60) | #define XY_PROBE_SPEED (180*60) | Config X and Y Travel speed for probes |
+| #define XY_PROBE_SPEED (133*60) | #define XY_PROBE_SPEED (120*60) | Config X and Y Travel speed for probes |
 | #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z | #define Z_PROBE_SPEED_FAST (HOMING_FEEDRATE_Z * 4) | |
 | //#define MULTIPLE_PROBING 2 | #define MULTIPLE_PROBING 3 | Improved results by probing 3 times |
 | #define Z_CLEARANCE_DEPLOY_PROBE   10 | #define Z_CLEARANCE_DEPLOY_PROBE    0 | Z Clearance for Deploy/Stow |
@@ -61,7 +66,7 @@
 | //#define Z_MIN_PROBE_REPEATABILITY_TEST | #define Z_MIN_PROBE_REPEATABILITY_TEST | Enable repeatability test to test probe accuracy |
 | //#define PROBING_HEATERS_OFF | #define PROBING_HEATERS_OFF | Turn heaters off when probing |
 | #define INVERT_X_DIR false | #define INVERT_X_DIR false | Invert the stepper direction on X-Axis |
-| #define INVERT_Y_DIR true | #define INVERT_Y_DIR false | Invert the stepper direction on Y-Axis |
+| ~~#define INVERT_Y_DIR true~~ | ~~#define INVERT_Y_DIR true~~ | ~~Invert the stepper direction on Y-Axis~~ |
 | #define INVERT_Z_DIR false | #define INVERT_Z_DIR true | Invert the stepper direction on Y-Axis |
 | #define INVERT_E1_DIR false | #define INVERT_E1_DIR true | Invert the stepper direction on Extruder |
 | #define X_BED_SIZE 200 | #define X_BED_SIZE 250 | Config Bed Size of X-Axis |
@@ -80,6 +85,7 @@
 | //#define MANUAL_Y_HOME_POS 0 | #define MANUAL_Y_HOME_POS -2.2 | Enabled manual home position for Y-Axis |
 | //#define MANUAL_Z_HOME_POS 0 | #define MANUAL_Z_HOME_POS 0.2 | Enabled manual home position for Z-Axis |
 | //#define Z_SAFE_HOMING | #define Z_SAFE_HOMING | Enabled avoid homing with a Z probe outside the bed area |
+| **========== System ==========** |||
 | //#define EEPROM_SETTINGS  | #define EEPROM_SETTINGS | Persistent storage with M500 and M501 |
 | //#define EEPROM_AUTO_INIT | #define EEPROM_AUTO_INIT | Init EEPROM automatically on any errors |
 | //#define NOZZLE_PARK_FEATURE | #define NOZZLE_PARK_FEATURE | Park the nozzle at the given XYZ position on idle or G27 |
@@ -89,16 +95,20 @@
 | //#define ENCODER_PULSES_PER_STEP 4 | #define ENCODER_PULSES_PER_STEP 4 | |
 | //#define ENCODER_STEPS_PER_MENU_ITEM 1 | #define ENCODER_STEPS_PER_MENU_ITEM 1 | |
 | //#define INDIVIDUAL_AXIS_HOMING_MENU | #define INDIVIDUAL_AXIS_HOMING_MENU | Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu |
+| **========== Display ==========** |||
 | //#define REPRAP_DISCOUNT_SMART_CONTROLLER | #define REPRAP_DISCOUNT_SMART_CONTROLLER | Use Prusa Display |
+| **========== NEOPIXEL LED ==========** |||
 | //#define NEOPIXEL_LED | #define NEOPIXEL_LED | Enabled NEOPIXEL LED Support |
 | #define NEOPIXEL_TYPE   NEO_GRBW | #define NEOPIXEL_TYPE   NEO_GRB | Support NEOPIXEL WS2812/WS2812B with RGB |
 | #define NEOPIXEL_PIN     4 | #define NEOPIXEL_PIN     P1_24 | Config PIN for plug NEOPIXEL |
+| #define NEOPIXEL_PIXELS 30 | #define NEOPIXEL_PIXELS 30 | // Number of LEDs in the strip. (Longest strip when NEOPIXEL2_SEPARATE is disabled.) |
 | //#define NEOPIXEL_STARTUP_TEST | #define NEOPIXEL_STARTUP_TEST | Test NEOPIXEL on Startup |
 
 ### Configuration_adv.h
 
 | From     | To (SKR_1.4_TURBO) | Description |
 |----------|------------|------------|
+| **========== Thermal Protection ==========** |||
 | #define THERMAL_PROTECTION_PERIOD 40 | #define THERMAL_PROTECTION_PERIOD 60 | Thermal Protection provides additional protection to your printer from damage |
 | #define THERMAL_PROTECTION_HYSTERESIS 4 | #define THERMAL_PROTECTION_HYSTERESIS 10 | |
 | //#define ADAPTIVE_FAN_SLOWING | #define ADAPTIVE_FAN_SLOWING | Slow part cooling fan if temperature drops |
@@ -106,8 +116,11 @@
 | #define THERMAL_PROTECTION_BED_PERIOD        20 |  #define THERMAL_PROTECTION_BED_PERIOD        60 | Thermal Protection parameters for the bed are just as above for hotends |
 | #define THERMAL_PROTECTION_BED_HYSTERESIS     2 | #define THERMAL_PROTECTION_BED_HYSTERESIS      8 | |
 | //#define HOTEND_IDLE_TIMEOUT | #define HOTEND_IDLE_TIMEOUT | Enabled Hotend Timeout |
+| **========== Fan ==========** |||
 | //#define FAN_MIN_PWM 50 | #define FAN_MIN_PWM 80 | PWM Fan Scaling form 0-255 |
+| //#define FAN_MAX_PWM 128 | #define FAN_MAX_PWM 255 | PWM Fan Scaling form 0-255 |
 | #define E0_AUTO_FAN_PIN -1 | #define E0_AUTO_FAN_PIN FAN1_PIN | Config Fan Pin for Extruder |
+| **========== Z-Axis and Homing ==========** |||
 | #define NUM_Z_STEPPER_DRIVERS 1 | #define NUM_Z_STEPPER_DRIVERS 2 | Config 2 Z-Axis Stepper |
 | //#define SENSORLESS_BACKOFF_MM  { 2, 2 } | #define SENSORLESS_BACKOFF_MM  { 2, 2 } | (mm) Backoff from endstops before sensorless homing |
 | #define HOMING_BUMP_MM      { 5, 5, 2 } | #define HOMING_BUMP_MM      { 0, 0, 2 } | (mm) Backoff from endstops after first bump |
@@ -118,6 +131,7 @@
 | #define DISABLE_INACTIVE_Z true | #define DISABLE_INACTIVE_Z false | the nozzle could fall onto your printed part! |
 | //#define ADAPTIVE_STEP_SMOOTHING | #define ADAPTIVE_STEP_SMOOTHING | Adaptive Step Smoothing increases the resolution of multi-axis moves |
 | //#define PROBE_OFFSET_WIZARD | #define PROBE_OFFSET_WIZARD | Add Probe Z Offset calibration to the Z Probe Offsets menu |
+| **========== LCD Menu and Default NEOPIXEL LED Color ==========** |||
 | //#define LCD_INFO_MENU | #define LCD_INFO_MENU | Display Info Menu on Display |
 | //#define LED_CONTROL_MENU | #define LED_CONTROL_MENU | Display LEC Control Menu on Display |
 | #define LED_USER_PRESET_GREEN      128 | #define LED_USER_PRESET_GREEN      0 | |
@@ -135,14 +149,16 @@
 | //#define MOVE_Z_WHEN_IDLE | #define MOVE_Z_WHEN_IDLE | Jump to the move Z menu on doubleclick when printer is idle |
 | #define MOVE_Z_IDLE_MULTIPLICATOR 1 | #define MOVE_Z_IDLE_MULTIPLICATOR 10 | Multiply 10mm by this factor for the move step size |
 | //#define BABYSTEP_ZPROBE_OFFSET | #define BABYSTEP_ZPROBE_OFFSET | Combine M851 Z and Babystepping | 
-| ~~//#define LIN_ADVANCE~~ | ~~#define LIN_ADVANCE~~ | ~~Enabled Linear Pressure Control v1.5~~ |
-| ~~#define LIN_ADVANCE_K 0.22~~ | ~~#define LIN_ADVANCE_K 0.00~~ | ~~Setup default LA 1.5~~ |
-| ~~//#define EXPERIMENTAL_SCURVE~~ | ~~#define EXPERIMENTAL_SCURVE~~ | ~~Enable this option to permit S-Curve Acceleration~~ |
+| **========== Linear Advance ==========** |||
+| //#define LIN_ADVANCE | #define LIN_ADVANCE | Enabled Linear Pressure Control v1.5 |
+| #define LIN_ADVANCE_K 0.22 | #define LIN_ADVANCE_K 0.00 | Setup default LA 1.5 |
+| //#define EXPERIMENTAL_SCURVE | #define EXPERIMENTAL_SCURVE | Enable this option to permit S-Curve Acceleration |
 | #define BLOCK_BUFFER_SIZE 16 | #define BLOCK_BUFFER_SIZE 32 | |
 | #define BUFSIZE 4 | #define BUFSIZE 32 | |
 | #define TX_BUFFER_SIZE 0 | #define TX_BUFFER_SIZE 32 | |
 | //#define EMERGENCY_PARSER | #define EMERGENCY_PARSER | Emergency Command Parser |
 | //#define ADVANCED_PAUSE_FEATURE | #define ADVANCED_PAUSE_FEATURE | Enable Advanced Pause Feature |
+| **========== Filament Change ==========** |||
 | #define PAUSE_PARK_RETRACT_FEEDRATE         60 | #define PAUSE_PARK_RETRACT_FEEDRATE         40 | |
 | #define FILAMENT_CHANGE_UNLOAD_FEEDRATE     10 | #define FILAMENT_CHANGE_UNLOAD_FEEDRATE     20 | |
 | #define FILAMENT_CHANGE_UNLOAD_LENGTH      100 | #define FILAMENT_CHANGE_UNLOAD_LENGTH      120 | |
@@ -156,11 +172,17 @@
 | #define FILAMENT_CHANGE_ALERT_BEEPS         10 | #define FILAMENT_CHANGE_ALERT_BEEPS          20 | |
 | //#define PARK_HEAD_ON_PAUSE | #define PARK_HEAD_ON_PAUSE | |
 | //#define FILAMENT_LOAD_UNLOAD_GCODES | #define FILAMENT_LOAD_UNLOAD_GCODES | |
-| #define X_CURRENT_HOME  X_CURRENT | #define X_CURRENT_HOME  200 | Set motor current for homing |
+| **========== Motor Current and Micro Steps ==========** |||
+| #define X_CURRENT       800 | #define X_CURRENT       800 | Set motor current |
+| #define X_CURRENT_HOME  X_CURRENT | #define X_CURRENT_HOME  X_CURRENT / 2 | Set motor current for homing |
+| #define X_MICROSTEPS     16 | #define X_MICROSTEPS     32 | Set motor microsteps |
 | #define Y_CURRENT       800 | #define Y_CURRENT       850 | Set motor current |
-| #define Y_CURRENT_HOME  Y_CURRENT | #define Y_CURRENT_HOME  250 | Set motor current for homing |
+| #define Y_CURRENT_HOME  Y_CURRENT | #define Y_CURRENT_HOME  Y_CURRENT / 2 | Set motor current for homing |
+| #define Y_MICROSTEPS     16 | #define Y_MICROSTEPS     32 | Set motor microsteps |
 | #define Z_CURRENT       800 | #define Z_CURRENT       450 | Set motor current |
 | #define Z2_CURRENT      800 | #define Z2_CURRENT      450 | Set motor current |
+| #define E0_CURRENT      800 | #define E0_CURRENT      800 | Set motor current |
+| #define E0_MICROSTEPS    16 | #define E0_MICROSTEPS    32 | Set motor microsteps |
 | #define CHOPPER_TIMING CHOPPER_DEFAULT_12V | #define CHOPPER_TIMING CHOPPER_09STEP_24V | Optimize spreadCycle chopper parameters |
 | //#define SENSORLESS_HOMING | #define SENSORLESS_HOMING | Enabled sensorless homing |
 | #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  75 | |

@@ -29,7 +29,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * Y-axis: LDO 0.9° motor (LDO-42STH48-1684MAC)
 * Z-axis: LDO 1.8° motor (LDO-42STH34-1004L321EC TEFLON COATED LEADSCREW)
 * E-axis: LDO 0.9° motor (LDO-42STH25-1404MAC)
-* Micro Stepping: 1/32
+* Micro Stepping: 1/16
 
 ## Hotend
 * Slice Engineering Mosquito/Mosquito Magnum Hotend

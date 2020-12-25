@@ -9,12 +9,18 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 
 ## New Features
 * Now support NeoPixel LED upto 30 LED (Use with BigTreeTech DCDC V1.0 power module)
-* Enable Linear Advance with Enable S-Curve Acceleration
-* Disable Classic Jerk and Enable Junction Deviation Factor
+* Enable Linear Advance with S-Curve Acceleration
+* Enable Junction Deviation Factor
+* Driver monitoring for error conditions like over temperature and short to ground.
+* Support filament run out
 * Add Chris Warkocki's Custom Command
+* Stronger stepper motor movement
+* Many more...
 
 ## Fixed Issue
-* Fixed Thermal Runaway
+* A fixed thermal runaway when use in cold winter.
+* A fixed stepper motor noise when run fast. (Noise come from TMC StealthChop mode.)
+* Many more...
 
 # Configuration For
 

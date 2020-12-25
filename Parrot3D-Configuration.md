@@ -10,7 +10,7 @@
 | //#define SERIAL_PORT_2 -1 | #define SERIAL_PORT_2 -1 | Enabled Serial Port |
 | #define MOTHERBOARD BOARD_RAMPS_14_EFB | #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO | Define Board For SKR 1.4 : #define MOTHERBOARD BOARD_BTT_SKR_V1_4 |
 | //#define CUSTOM_MACHINE_NAME "3D Printer | #define CUSTOM_MACHINE_NAME "Parrot 3D" | Change Printer Name |
-| #define TEMP_SENSOR_0 1 | #define TEMP_SENSOR_0 5 | 5: is for E3D Thermistor 67: is for SE HT Thermistor |
+| #define TEMP_SENSOR_0 1 | #define TEMP_SENSOR_0 67 | 5: is for E3D Thermistor 67: is for SE HT Thermistor |
 | #define TEMP_SENSOR_BED 0 | #define TEMP_SENSOR_BED 1 | Enabled Heat Bed Temp Sensor |
 | #define TEMP_SENSOR_PROBE 0 | #define TEMP_SENSOR_PROBE 1 | Enable P.I.N.D.A. 2 Temp Sensor |
 | #define TEMP_RESIDENCY_TIME 10 | #define TEMP_RESIDENCY_TIME 2 | |

@@ -40,7 +40,7 @@
 | //#define E0_DRIVER_TYPE A4988 | #define E0_DRIVER_TYPE TMC2209 | Select Stepper Driver for Extruder |
 | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 1660 } | Default Axis Steps Per Unit For 0.9 and BMG |
 | #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 } | #define DEFAULT_MAX_FEEDRATE          {200, 200, 12, 120} | Default Max Feed Rate |
-| #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      {2000, 2000, 200, 5000} | Default Max Acceleration change |
+| #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      {1000, 1000, 200, 5000} | Default Max Acceleration change |
 | #define DEFAULT_ACCELERATION          3000 | #define DEFAULT_ACCELERATION          1250 | X, Y, Z and E acceleration for printing moves |
 | #define DEFAULT_RETRACT_ACCELERATION  3000 | #define DEFAULT_RETRACT_ACCELERATION  1250 | E acceleration for retracts |
 | #define DEFAULT_TRAVEL_ACCELERATION   3000 | #define DEFAULT_TRAVEL_ACCELERATION   1250 | X, Y, Z acceleration for travel (non printing) moves |
@@ -56,7 +56,7 @@
 | //#define USE_PROBE_FOR_Z_HOMING | #define USE_PROBE_FOR_Z_HOMING | Force the use of the probe for Z-axis homing |
 | //#define FIX_MOUNTED_PROBE | #define FIX_MOUNTED_PROBE | Enabled P.I.N.D.A 2 Probe |
 | #define NOZZLE_TO_PROBE_OFFSET { 10, 10, 0 } | #define NOZZLE_TO_PROBE_OFFSET { 23, 5, 0 } | Set Nozzle-to-Probe offsets for BMG |
-| #define XY_PROBE_SPEED (133*60) | #define XY_PROBE_SPEED (120*60) | Config X and Y Travel speed for probes |
+| ~~#define XY_PROBE_SPEED (133*60)~~ | ~~#define XY_PROBE_SPEED (120*60)~~ | ~~Config X and Y Travel speed for probes~~ |
 | #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z | #define Z_PROBE_SPEED_FAST (HOMING_FEEDRATE_Z * 4) | |
 | //#define MULTIPLE_PROBING 2 | #define MULTIPLE_PROBING 3 | Improved results by probing 3 times |
 | #define Z_CLEARANCE_DEPLOY_PROBE   10 | #define Z_CLEARANCE_DEPLOY_PROBE    0 | Z Clearance for Deploy/Stow |
@@ -148,7 +148,9 @@
 | //#define DOUBLECLICK_FOR_Z_BABYSTEPPING | #define DOUBLECLICK_FOR_Z_BABYSTEPPING | Double-click on the Status Screen for Z Babystepping |
 | //#define MOVE_Z_WHEN_IDLE | #define MOVE_Z_WHEN_IDLE | Jump to the move Z menu on doubleclick when printer is idle |
 | #define MOVE_Z_IDLE_MULTIPLICATOR 1 | #define MOVE_Z_IDLE_MULTIPLICATOR 10 | Multiply 10mm by this factor for the move step size |
+| ~~//#define BABYSTEP_ALWAYS_AVAILABLE~~ | ~~#define BABYSTEP_ALWAYS_AVAILABLE~~ | ~~Allow babystepping at all times (not just during movement)~~ |
 | //#define BABYSTEP_ZPROBE_OFFSET | #define BABYSTEP_ZPROBE_OFFSET | Combine M851 Z and Babystepping | 
+| ~~//#define BABYSTEP_ZPROBE_GFX_OVERLAY~~ | ~~#define BABYSTEP_ZPROBE_GFX_OVERLAY~~ | ~~Enable graphical overlay on Z-offset editor~~ |
 | **============================== <br/> Linear Advance <br/> ==============================** |||
 | //#define LIN_ADVANCE | #define LIN_ADVANCE | Enabled Linear Pressure Control v1.5 |
 | #define LIN_ADVANCE_K 0.22 | #define LIN_ADVANCE_K 0.00 | Setup default LA 1.5 |
@@ -183,7 +185,13 @@
 | #define Z2_CURRENT      800 | #define Z2_CURRENT      450 | Set motor current |
 | #define E0_CURRENT      800 | #define E0_CURRENT      800 | Set motor current |
 | #define E0_MICROSTEPS    16 | #define E0_MICROSTEPS    32 | Set motor microsteps |
+| //#define G29_RETRY_AND_RECOVER | #define G29_RETRY_AND_RECOVER | Repeatedly attempt G29 leveling until it succeeds |
+| //#define MONITOR_DRIVER_STATUS | #define MONITOR_DRIVER_STATUS | Keeping an eye on the stepper drivers for issue |
 | #define CHOPPER_TIMING CHOPPER_DEFAULT_12V | #define CHOPPER_TIMING CHOPPER_09STEP_24V | Optimize spreadCycle chopper parameters |
+| //#define HYBRID_THRESHOLD | #define HYBRID_THRESHOLD | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
+| #define Z_HYBRID_THRESHOLD      3 | #define Z_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
+| #define Z2_HYBRID_THRESHOLD      3 | #define Z2_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
+| #define E0_HYBRID_THRESHOLD     30 | #define E0_HYBRID_THRESHOLD     50 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
 | //#define SENSORLESS_HOMING | #define SENSORLESS_HOMING | Enabled sensorless homing |
 | #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  75 | |
 | #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  75 | |

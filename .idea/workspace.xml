@@ -43,9 +43,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update parrot 3d configuration document">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parrot3D-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot3D-Configuration.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -255,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608773713771</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update parrot 3d configuration document">
+      <created>1608900693193</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608900693193</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

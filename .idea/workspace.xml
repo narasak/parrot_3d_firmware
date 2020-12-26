@@ -41,11 +41,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update parrot 3d configuration document">
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Change for E3D V6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Version.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Version.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parrot3D-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot3D-Configuration.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -57,7 +56,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop/reprap-display/bondtech/pinda2/0.9xye/e3d-v6" />
+        <entry key="$PROJECT_DIR$" value="bondtech/0.9xye/e3d-v6/pinda2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -270,7 +269,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608956966421</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update parrot 3d configuration document">
+      <created>1608970488007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970488007</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Change for E3D V6">
+      <created>1608970701322</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970701323</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Change for E3D V6">
+      <created>1608970751889</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970751889</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +334,7 @@
     <MESSAGE value="Update git ignore" />
     <MESSAGE value="Initial commit for Firmware 2.0" />
     <MESSAGE value="Update parrot 3d configuration document" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update parrot 3d configuration document" />
+    <MESSAGE value="Change for E3D V6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change for E3D V6" />
   </component>
 </project>

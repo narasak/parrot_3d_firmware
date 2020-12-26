@@ -31,10 +31,13 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * BigTreeTech TMC2209 1.2 on X, Y, Z, E, E0
 
 ## Steppers
-* X-axis: LDO 0.9° motor (LDO-42STH48-1684MAC)
-* Y-axis: LDO 0.9° motor (LDO-42STH48-1684MAC)
+* X-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
+* Y-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
 * Z-axis: LDO 1.8° motor (LDO-42STH34-1004L321EC TEFLON COATED LEADSCREW)
-* E-axis: LDO 0.9° motor (LDO-42STH25-1404MAC)
+* E-axis: 
+  * LDO 1.8° motor (LDO-42STH25-1004AH)
+  * LDO 1.8° motor (LDO-42STH20-1004AS2)
+  * Bondtech Upgrade Kit for Prusa i3 MK3S & MK2.5S
 * Micro Stepping: 1/16
 
 ## Hotend

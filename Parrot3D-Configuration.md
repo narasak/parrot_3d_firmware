@@ -96,7 +96,8 @@
 | //#define ENCODER_STEPS_PER_MENU_ITEM 1 | #define ENCODER_STEPS_PER_MENU_ITEM 1 | |
 | //#define INDIVIDUAL_AXIS_HOMING_MENU | #define INDIVIDUAL_AXIS_HOMING_MENU | Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu |
 | **============================== <br/> Display <br/> ==============================** |||
-| //#define REPRAP_DISCOUNT_SMART_CONTROLLER | #define REPRAP_DISCOUNT_SMART_CONTROLLER | Use Prusa Display |
+| #define LCD_INFO_SCREEN_STYLE 1 | #define LCD_INFO_SCREEN_STYLE 0 | Info Screen Style (0:Classic, 1:Průša) |
+| //#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER | #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER | RepRapDiscount FULL GRAPHIC Smart Controller |
 | **============================== <br/> NEOPIXEL LED <br/> ==============================** |||
 | //#define NEOPIXEL_LED | #define NEOPIXEL_LED | Enabled NEOPIXEL LED Support |
 | #define NEOPIXEL_TYPE   NEO_GRBW | #define NEOPIXEL_TYPE   NEO_GRB | Support NEOPIXEL WS2812/WS2812B with RGB |
@@ -146,11 +147,11 @@
 | //#define SCROLL_LONG_FILENAMES | #define SCROLL_LONG_FILENAMES | Scroll long filenames in the SD card menu |
 | //#define BABYSTEPPING | #define BABYSTEPPING | Babystepping enables movement of the axes by tiny increments without changing the current position values |
 | //#define DOUBLECLICK_FOR_Z_BABYSTEPPING | #define DOUBLECLICK_FOR_Z_BABYSTEPPING | Double-click on the Status Screen for Z Babystepping |
-| //#define MOVE_Z_WHEN_IDLE | #define MOVE_Z_WHEN_IDLE | Jump to the move Z menu on doubleclick when printer is idle |
+| ~~//#define MOVE_Z_WHEN_IDLE~~ | ~~#define MOVE_Z_WHEN_IDLE~~ | ~~Jump to the move Z menu on doubleclick when printer is idle~~ |
 | #define MOVE_Z_IDLE_MULTIPLICATOR 1 | #define MOVE_Z_IDLE_MULTIPLICATOR 10 | Multiply 10mm by this factor for the move step size |
-| ~~//#define BABYSTEP_ALWAYS_AVAILABLE~~ | ~~#define BABYSTEP_ALWAYS_AVAILABLE~~ | ~~Allow babystepping at all times (not just during movement)~~ |
+| //#define BABYSTEP_ALWAYS_AVAILABLE | #define BABYSTEP_ALWAYS_AVAILABLE | Allow babystepping at all times (not just during movement) |
 | //#define BABYSTEP_ZPROBE_OFFSET | #define BABYSTEP_ZPROBE_OFFSET | Combine M851 Z and Babystepping | 
-| ~~//#define BABYSTEP_ZPROBE_GFX_OVERLAY~~ | ~~#define BABYSTEP_ZPROBE_GFX_OVERLAY~~ | ~~Enable graphical overlay on Z-offset editor~~ |
+| //#define BABYSTEP_ZPROBE_GFX_OVERLAY | #define BABYSTEP_ZPROBE_GFX_OVERLAY | Enable graphical overlay on Z-offset editor |
 | **============================== <br/> Linear Advance <br/> ==============================** |||
 | //#define LIN_ADVANCE | #define LIN_ADVANCE | Enabled Linear Pressure Control v1.5 |
 | #define LIN_ADVANCE_K 0.22 | #define LIN_ADVANCE_K 0.00 | Setup default LA 1.5 |
@@ -191,7 +192,7 @@
 | //#define HYBRID_THRESHOLD | #define HYBRID_THRESHOLD | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
 | #define Z_HYBRID_THRESHOLD      3 | #define Z_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
 | #define Z2_HYBRID_THRESHOLD      3 | #define Z2_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
-| #define E0_HYBRID_THRESHOLD     30 | #define E0_HYBRID_THRESHOLD     50 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
+| #define E0_HYBRID_THRESHOLD     30 | #define E0_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
 | //#define SENSORLESS_HOMING | #define SENSORLESS_HOMING | Enabled sensorless homing |
 | #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  75 | |
 | #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  75 | |

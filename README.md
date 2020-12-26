@@ -44,7 +44,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * P.I.N.D.A. 2
 
 ## LCD Controller
-* RepRapDiscount Smart Controller
+* BIGTREETECH TFT35 V3
 
 ## License
 

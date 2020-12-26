@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "2.0.0"
+#define SHORT_BUILD_VERSION "Parrot 3D 2.0.0"
 
 /**
  * Verbose version identifier which should contain a reference to the location

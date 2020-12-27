@@ -2,10 +2,17 @@
 
 ## Change from [Parrot3D (Develop Main Branch)](https://github.com/narasak/parrot_3d_firmware/tree/develop/main)
 
+### platformio.ini
+| From     | To (SKR_1.4) | Description |
+|----------|------------|------------|
+| default_envs = LPC1769 | default_envs = LPC1768 | Change board to SKR 1.4 |
+
 ### Configuration.h
 
-| From     | To (SKR_1.4_TURBO) | Description |
+| From     | To (SKR_1.4) | Description |
 |----------|------------|------------|
+| **============================== <br/> Board <br/> ==============================** |||
+| #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO | #define MOTHERBOARD BOARD_BTT_SKR_V1_4 | Change board to SKR 1.4 |
 | **============================== <br/> Temperature <br/> ==============================** |||
 | #define TEMP_SENSOR_0 67 | #define TEMP_SENSOR_0 5 | 5: is for E3D Thermistor 67: is for SE HT Thermistor |
 | #define DEFAULT_Kp  28.53 | #define DEFAULT_Kp  16.50 | Default Hot End PID (Kp Value) |

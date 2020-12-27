@@ -27,7 +27,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 # Configuration For
 
 ## Motherboard
-* BigTreeTech SKR 1.4 Turbo
+* BigTreeTech SKR 1.4
 
 ## Stepper Drivers
 * BigTreeTech TMC2209 1.2 on X, Y, Z, E, E0

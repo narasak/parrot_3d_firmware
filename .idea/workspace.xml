@@ -41,12 +41,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Change for E3D V6">
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Change for 1.8° XYE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parrot3D-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot3D-Configuration.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="bondtech/0.9xye/e3d-v6/pinda2" />
+        <entry key="$PROJECT_DIR$" value="bondtech/1.8xye/slice-engineer/pinda2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -290,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608970751889</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Change for 1.8° XYE">
+      <created>1608972826570</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1608972826571</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +338,7 @@
     <MESSAGE value="Initial commit for Firmware 2.0" />
     <MESSAGE value="Update parrot 3d configuration document" />
     <MESSAGE value="Change for E3D V6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change for E3D V6" />
+    <MESSAGE value="Change for 1.8° XYE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change for 1.8° XYE" />
   </component>
 </project>

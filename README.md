@@ -1,13 +1,13 @@
 # Parrot 3D Printer Firmware
 ![Parrot 3D Logo](https://github.com/narasak/parrot_3d/blob/master/img/parrot_3d_logo.svg?raw=true)
 
+# ⚠️ This firmware made for Fred Moineau only ⚠️
+
 ## Parrot 3D Firmware 2.x
 
 Parrot 3D Firmware is next level for Parrot 3D Printer base on Marlin Firmware 2.x.
 
 Download earlier versions of firmware on the [Releases page](https://github.com/narasak/parrot_3d_firmware/releases).
-
-# This firmware made for Fred Moineau Only
 
 ## New Features
 * Now support NeoPixel LED upto 30 LED (Use with BigTreeTech DCDC V1.0 power module)

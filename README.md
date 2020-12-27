@@ -7,6 +7,8 @@ Parrot 3D Firmware is next level for Parrot 3D Printer base on Marlin Firmware 2
 
 Download earlier versions of firmware on the [Releases page](https://github.com/narasak/parrot_3d_firmware/releases).
 
+# This firmware made for Fred Moineau Only
+
 ## New Features
 * Now support NeoPixel LED upto 30 LED (Use with BigTreeTech DCDC V1.0 power module)
 * Enable Linear Advance with S-Curve Acceleration
@@ -31,19 +33,16 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * BigTreeTech TMC2209 1.2 on X, Y, Z, E, E0
 
 ## Steppers
-* X-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
-* Y-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
-* Z-axis: LDO 1.8° motor (LDO-42STH34-1004L321EC TEFLON COATED LEADSCREW)
-* E-axis: 
-  * LDO 1.8° motor (LDO-42STH25-1004AH)
-  * LDO 1.8° motor (LDO-42STH20-1004AS2)
-  * Bondtech Upgrade Kit for Prusa i3 MK3S & MK2.5S
+* X-axis: Original Prusa Steppers Motor 
+* Y-axis: Original Prusa Steppers Motor
+* Z-axis: Original Prusa Steppers Motor
+* E-axis: Original Bondtech Upgrade Kit for Prusa i3 MK3S & MK2.5S
 * Micro Stepping: 1/16
 
 ## Hotend
 * Slice Engineering Mosquito/Mosquito Magnum Hotend
-* Slice Engineering 50W 24V Heater Cartridge
-* Slice Engineering High Temperature Thermistor
+* E3D 24V Heater Cartridge
+* E3D Temperature Thermistor
 * P.I.N.D.A. 2
 
 ## LCD Controller

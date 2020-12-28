@@ -34,17 +34,14 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * X-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
 * Y-axis: LDO 1.8° motor (LDO-42STH40-1Q04ASC)
 * Z-axis: LDO 1.8° motor (LDO-42STH34-1004L321EC TEFLON COATED LEADSCREW)
-* E-axis: 
-  * LDO 1.8° motor (LDO-42STH25-1004AH)
-  * LDO 1.8° motor (LDO-42STH20-1004AS2)
-  * Bondtech Upgrade Kit for Prusa i3 MK3S & MK2.5S
+* E-axis: Original E3D Hemera
 * Micro Stepping: 1/16
 
 ## Hotend
-* Slice Engineering Mosquito/Mosquito Magnum Hotend
-* Slice Engineering 50W 24V Heater Cartridge
-* Slice Engineering High Temperature Thermistor
-* P.I.N.D.A. 2
+* E3D Hemera Hotend
+* E3D 24V Heater Cartridge
+* E3D Temperature Thermistor
+* BLTouch 3.1
 
 ## LCD Controller
 * BIGTREETECH TFT35 V3

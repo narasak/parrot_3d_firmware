@@ -44,7 +44,7 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * Slice Engineering Mosquito/Mosquito Magnum Hotend
 * Slice Engineering 50W 24V Heater Cartridge
 * Slice Engineering High Temperature Thermistor
-* P.I.N.D.A. 2
+* BLTouch V3.1
 
 ## LCD Controller
 * BIGTREETECH TFT35 V3

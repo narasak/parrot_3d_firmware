@@ -29,6 +29,7 @@
 | #define X_CURRENT       800 | #define X_CURRENT       500 | Set motor current |
 | #define Y_CURRENT       850 | #define Y_CURRENT       600 | Set motor current |
 | #define E0_CURRENT      800 | #define E0_CURRENT      550 | Set motor current |
+| #define X_STALL_SENSITIVITY 75 | #define X_STALL_SENSITIVITY 120 | Sensorless homing sensitivity |
 | **============================== <br/> BL Touch <br/> ==============================** |||
 | //#define BLTOUCH_DELAY 500 | #define BLTOUCH_DELAY 200 | The probe needs time to recognize the command. |
 | //#define BLTOUCH_SET_5V_MODE | #define BLTOUCH_SET_5V_MODE | BLTouch V3.0 or 3.1: Set default mode to 5V mode at Marlin startup. |

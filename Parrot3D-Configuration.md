@@ -65,10 +65,10 @@
 | #define Z_PROBE_LOW_POINT          -2 | #define Z_PROBE_LOW_POINT          -4 | Farthest distance below the trigger-point to go before stopping |
 | //#define Z_MIN_PROBE_REPEATABILITY_TEST | #define Z_MIN_PROBE_REPEATABILITY_TEST | Enable repeatability test to test probe accuracy |
 | //#define PROBING_HEATERS_OFF | #define PROBING_HEATERS_OFF | Turn heaters off when probing |
-| #define INVERT_X_DIR false | #define INVERT_X_DIR false | Invert the stepper direction on X-Axis |
-| ~~#define INVERT_Y_DIR true~~ | ~~#define INVERT_Y_DIR true~~ | ~~Invert the stepper direction on Y-Axis~~ |
-| #define INVERT_Z_DIR false | #define INVERT_Z_DIR true | Invert the stepper direction on Y-Axis |
-| #define INVERT_E1_DIR false | #define INVERT_E1_DIR true | Invert the stepper direction on Extruder |
+| #define INVERT_X_DIR false | #define INVERT_X_DIR true | Invert the stepper direction on X-Axis |
+| #define INVERT_Y_DIR true | #define INVERT_Y_DIR false | Invert the stepper direction on Y-Axis |
+| #define INVERT_Z_DIR false | #define INVERT_Z_DIR false | Invert the stepper direction on Y-Axis |
+| #define INVERT_E0_DIR false | #define INVERT_E0_DIR false | Invert the stepper direction on Extruder |
 | #define X_BED_SIZE 200 | #define X_BED_SIZE 250 | Config Bed Size of X-Axis |
 | #define Y_BED_SIZE 200 | #define Y_BED_SIZE 210 | Config Bed Size of Y-Axis |
 | #define Y_MIN_POS 0 | #define Y_MIN_POS -4 | Config Y-Axis min position |

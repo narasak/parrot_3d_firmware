@@ -18,6 +18,7 @@
 | #define FIX_MOUNTED_PROBE | //#define FIX_MOUNTED_PROBE | Disable fix mounted probe |
 | //#define BLTOUCH | #define BLTOUCH | The BLTouch probe uses a Hall effect sensor and emulates a servo. |
 | #define NOZZLE_TO_PROBE_OFFSET { 23, 5, 0 } | #define NOZZLE_TO_PROBE_OFFSET { -24.3, -34.1, 0 } | Nozzle-to-Probe offsets |
+| #define PROBING_MARGIN 10 | #define PROBING_MARGIN 17 | |
 | #define Z_CLEARANCE_DEPLOY_PROBE    0 | #define Z_CLEARANCE_DEPLOY_PROBE    5 | Z Clearance for Deploy/Stow |
 | #define Z_CLEARANCE_MULTI_PROBE     1 | #define Z_CLEARANCE_MULTI_PROBE     2 | Z Clearance between multiple probes |
 
@@ -34,5 +35,5 @@
 | //#define BLTOUCH_DELAY 500 | #define BLTOUCH_DELAY 200 | The probe needs time to recognize the command. |
 | //#define BLTOUCH_SET_5V_MODE | #define BLTOUCH_SET_5V_MODE | BLTouch V3.0 or 3.1: Set default mode to 5V mode at Marlin startup. |
 | //#define BLTOUCH_HS_MODE | #define BLTOUCH_HS_MODE | Use "HIGH SPEED" mode for probing. |
-| #define Z_STEPPER_ALIGN_XY { {  40, 90 }, { 230,  90 } } | #define Z_STEPPER_ALIGN_XY { {  10, 90 }, { 230,  90 } } | |
+| #define Z_STEPPER_ALIGN_XY { {  40, 90 }, { 230,  90 } } | #define Z_STEPPER_ALIGN_XY { {  17, 90 }, { 225,  90 } } | |
 

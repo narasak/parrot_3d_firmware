@@ -41,7 +41,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Change for E3D V6">
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update Z_STEPPER_ALIGN Position and Probe Margin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
@@ -289,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608970751889</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update Z_STEPPER_ALIGN Position and Probe Margin">
+      <created>1609250805053</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250805053</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,6 +341,7 @@
     <MESSAGE value="Initial commit for Firmware 2.0" />
     <MESSAGE value="Update parrot 3d configuration document" />
     <MESSAGE value="Change for E3D V6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change for E3D V6" />
+    <MESSAGE value="Update Z_STEPPER_ALIGN Position and Probe Margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Z_STEPPER_ALIGN Position and Probe Margin" />
   </component>
 </project>

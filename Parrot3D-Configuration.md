@@ -8,6 +8,8 @@
 |----------|------------|------------|
 | **============================== <br/> Driver <br/> ==============================** |||
 | #define DEFAULT_AXIS_STEPS_PER_UNIT { 200, 200, 400, 830 } | #define DEFAULT_AXIS_STEPS_PER_UNIT { 100, 100, 400, 415 } | Default Axis Steps Per Unit For 1.8 and BMG |
+| **============================== <br/> Probe <br/> ==============================** |||
+| #define PROBING_MARGIN 10 | #define PROBING_MARGIN 17 | |
 
 ### Configuration_adv.h
 
@@ -18,3 +20,4 @@
 | #define Y_CURRENT       850 | #define Y_CURRENT       600 | Set motor current |
 | #define E0_CURRENT      800 | #define E0_CURRENT      550 | Set motor current |
 | #define X_STALL_SENSITIVITY 75 | #define X_STALL_SENSITIVITY 120 | Sensorless homing sensitivity |
+| #define Z_STEPPER_ALIGN_XY { { 40, 90 }, { 230, 90 } } | #define Z_STEPPER_ALIGN_XY { { 40, 90 }, { 225, 90 } } | |

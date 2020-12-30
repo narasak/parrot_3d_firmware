@@ -7,11 +7,7 @@
 | From     | To (SKR_1.4_TURBO) | Description |
 |----------|------------|------------|
 | **============================== <br/> Temperature <br/> ==============================** |||
-| #define TEMP_SENSOR_0 67 | #define TEMP_SENSOR_0 5 | 5: is for E3D Thermistor 67: is for SE HT Thermistor |
 | #define TEMP_SENSOR_PROBE 1 | #define TEMP_SENSOR_PROBE 0 | Disable probe temp sensor |
-| #define DEFAULT_Kp  28.53 | #define DEFAULT_Kp  16.50 | Default Hot End PID (Kp Value) |
-| #define DEFAULT_Ki   2.99 | #define DEFAULT_Ki   1.16 | Default Hot End PID (Ki Value) |
-| #define DEFAULT_Kd 168.08 | #define DEFAULT_Kd  58.80 | Default Hot End PID (Kd Value) |
 | **============================== <br/> Driver <br/> ==============================** |||
 | #define DEFAULT_AXIS_STEPS_PER_UNIT { 200, 200, 400, 830 } | #define DEFAULT_AXIS_STEPS_PER_UNIT { 100, 100, 400, 415 } | Default Axis Steps Per Unit For 1.8 and BMG |
 | **============================== <br/> BL Touch <br/> ==============================** |||

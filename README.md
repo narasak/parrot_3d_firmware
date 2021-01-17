@@ -38,9 +38,9 @@ Download earlier versions of firmware on the [Releases page](https://github.com/
 * Micro Stepping: 1/16
 
 ## Hotend
-* Slice Engineering Mosquito/Mosquito Magnum Hotend
-* Slice Engineering 50W 24V Heater Cartridge
-* Slice Engineering High Temperature Thermistor
+* E3D V6
+* E3D 24V Heater Cartridge
+* E3D Temperature Thermistor
 * P.I.N.D.A. 2
 
 ## LCD Controller

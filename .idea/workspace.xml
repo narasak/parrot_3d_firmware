@@ -45,9 +45,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Version.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Version.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parrot3D-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot3D-Configuration.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop/reprap-display/bondtech/pinda2/0.9xye/e3d-v6" />
+        <entry key="$PROJECT_DIR$" value="develop/main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Marlin" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -129,6 +128,8 @@
       <workItem from="1602647192683" duration="434000" />
       <workItem from="1607853953596" duration="3521000" />
       <workItem from="1608770196496" duration="3786000" />
+      <workItem from="1609660255989" duration="20000" />
+      <workItem from="1609813348961" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Parrot 3D Firmware V.1.0.0">
       <created>1597049645130</created>

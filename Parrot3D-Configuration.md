@@ -20,11 +20,11 @@
 | #define TEMP_BED_WINDOW 1 | #define TEMP_BED_WINDOW 3 | |
 | #define TEMP_BED_HYSTERESIS 3 | #define TEMP_BED_HYSTERESIS 2 | |
 | **============================== <br/> Temperature <br/> ==============================** |||
-| #define HEATER_0_MAXTEMP 275 | #define HEATER_0_MAXTEMP 310 | Maximum Hot End Temp up to 310 C |
+| #define HEATER_0_MAXTEMP 275 | #define HEATER_0_MAXTEMP 315 | Maximum Hot End Temp up to 315 C |
 | #define BED_MAXTEMP 150 | #define BED_MAXTEMP 135 | Maximum Heated Bed Temp up to 135 C |
-| #define DEFAULT_Kp  22.20 | #define DEFAULT_Kp  28.53 | Default Hot End PID (Kp Value) |
-| #define DEFAULT_Ki   1.08 | #define DEFAULT_Ki   2.99 | Default Hot End PID (Ki Value) |
-| #define DEFAULT_Kd 114.00 | #define DEFAULT_Kd  68.08 | Default Hot End PID (Kd Value) |
+| #define DEFAULT_Kp  22.20 | #define DEFAULT_Kp  24.45 | Default Hot End PID (Kp Value) |
+| #define DEFAULT_Ki   1.08 | #define DEFAULT_Ki   4.59 | Default Hot End PID (Ki Value) |
+| #define DEFAULT_Kd 114.00 | #define DEFAULT_Kd  32.57 | Default Hot End PID (Kd Value) |
 | //#define PIDTEMPBED | #define PIDTEMPBED | Enabled PID for Heated Bed |
 | #define DEFAULT_bedKp 10.00 | #define DEFAULT_bedKp 36.23 | Default Heated Bed PID (Kp Value) |
 | #define DEFAULT_bedKi .023 | #define DEFAULT_bedKi 1.61 | Default Heated Bed PID (Ki Value) |
@@ -38,16 +38,16 @@
 | //#define Z_DRIVER_TYPE  A4988 | #define Z_DRIVER_TYPE  TMC2209 | Select Stepper Driver for Z-Axis |
 | //#define Z2_DRIVER_TYPE A4988 | #define Z2_DRIVER_TYPE TMC2209 | Select Stepper Driver for Z2-Axis |
 | //#define E0_DRIVER_TYPE A4988 | #define E0_DRIVER_TYPE TMC2209 | Select Stepper Driver for Extruder |
-| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 400, 1660 } | Default Axis Steps Per Unit For 0.9 and BMG |
+| #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 4000, 500 } | #define DEFAULT_AXIS_STEPS_PER_UNIT   { 400, 400, 800, 1660 } | Default Axis Steps Per Unit For 0.9 and BMG |
 | #define DEFAULT_MAX_FEEDRATE          { 300, 300, 5, 25 } | #define DEFAULT_MAX_FEEDRATE          {200, 200, 12, 120} | Default Max Feed Rate |
 | #define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } | #define DEFAULT_MAX_ACCELERATION      {1000, 1000, 200, 5000} | Default Max Acceleration change |
 | #define DEFAULT_ACCELERATION          3000 | #define DEFAULT_ACCELERATION          1250 | X, Y, Z and E acceleration for printing moves |
 | #define DEFAULT_RETRACT_ACCELERATION  3000 | #define DEFAULT_RETRACT_ACCELERATION  1250 | E acceleration for retracts |
 | #define DEFAULT_TRAVEL_ACCELERATION   3000 | #define DEFAULT_TRAVEL_ACCELERATION   1250 | X, Y, Z acceleration for travel (non printing) moves |
 | ~~//#define CLASSIC_JERK~~ | ~~#define CLASSIC_JERK~~ | ~~Enabled Default Jerk limits~~ |
-| ~~#define DEFAULT_XJERK 10.0~~ | ~~#define DEFAULT_XJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
-| ~~#define DEFAULT_YJERK 10.0~~ | ~~#define DEFAULT_YJERK 6.0~~ | ~~Default Jerk limits (mm/s)~~ |
-| ~~#define DEFAULT_ZJERK  0.3~~ | ~~#define DEFAULT_ZJERK  0.3~~ | ~~Default Jerk limits (mm/s)~~ |
+| ~~#define DEFAULT_XJERK 10.0~~ | ~~#define DEFAULT_XJERK 10.0~~ | ~~Default Jerk limits (mm/s)~~ |
+| ~~#define DEFAULT_YJERK 10.0~~ | ~~#define DEFAULT_YJERK 10.0~~ | ~~Default Jerk limits (mm/s)~~ |
+| ~~#define DEFAULT_ZJERK  0.3~~ | ~~#define DEFAULT_ZJERK  0.4~~ | ~~Default Jerk limits (mm/s)~~ |
 | #define DEFAULT_EJERK    5.0 | #define DEFAULT_EJERK    4.5 | Set Jerk limit on Extruder |
 | #define JUNCTION_DEVIATION_MM 0.013 | #define JUNCTION_DEVIATION_MM 0.010 | // (0.010 mm) Distance from real junction edge |
 | //#define S_CURVE_ACCELERATION | #define S_CURVE_ACCELERATION | Enabled S-Curve Acceleration Feature |
@@ -85,10 +85,13 @@
 | //#define MANUAL_Y_HOME_POS 0 | #define MANUAL_Y_HOME_POS -2.2 | Enabled manual home position for Y-Axis |
 | //#define MANUAL_Z_HOME_POS 0 | #define MANUAL_Z_HOME_POS 0.2 | Enabled manual home position for Z-Axis |
 | //#define Z_SAFE_HOMING | #define Z_SAFE_HOMING | Enabled avoid homing with a Z probe outside the bed area |
+| **============================== <br/> Fan <br/> ==============================** |||
+| //#define FAN_SOFT_PWM | #define FAN_SOFT_PWM | Use software PWM to drive the fan, as for the heaters |
 | **============================== <br/> System <br/> ==============================** |||
 | //#define EEPROM_SETTINGS  | #define EEPROM_SETTINGS | Persistent storage with M500 and M501 |
 | //#define EEPROM_AUTO_INIT | #define EEPROM_AUTO_INIT | Init EEPROM automatically on any errors |
 | //#define NOZZLE_PARK_FEATURE | #define NOZZLE_PARK_FEATURE | Park the nozzle at the given XYZ position on idle or G27 |
+| #define NOZZLE_PARK_Z_RAISE_MIN   2 | #define NOZZLE_PARK_Z_RAISE_MIN   5 | (mm) Always raise Z by at least this distance |
 | //#define PRINTCOUNTER | #define PRINTCOUNTER | Track statistical data |
 | //#define SDSUPPORT | #define SDSUPPORT | SD Card on display support |
 | //#define SD_CHECK_AND_RETRY | #define SD_CHECK_AND_RETRY | Checks and retries on the SD communication |
@@ -195,13 +198,22 @@
 | #define E0_HYBRID_THRESHOLD     30 | #define E0_HYBRID_THRESHOLD    100 | The driver will switch to spreadCycle when stepper speed is over HYBRID_THRESHOLD. |
 | //#define SENSORLESS_HOMING | #define SENSORLESS_HOMING | Enabled sensorless homing |
 | #define X_STALL_SENSITIVITY  8 | #define X_STALL_SENSITIVITY  75 | |
-| #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  75 | |
+| #define Y_STALL_SENSITIVITY  8 | #define Y_STALL_SENSITIVITY  65 | |
 | //#define IMPROVE_HOMING_RELIABILITY | #define IMPROVE_HOMING_RELIABILITY | |
 | //#define SQUARE_WAVE_STEPPING | #define SQUARE_WAVE_STEPPING | Create a 50/50 square wave step pulse optimal for stepper drivers |
 | //#define STARTUP_COMMANDS "M17 Z" | #define STARTUP_COMMANDS "M17 Z" | Enabled startup command |
 | //#define HOST_ACTION_COMMANDS | #define HOST_ACTION_COMMANDS | |
 | //#define HOST_PROMPT_SUPPORT | #define HOST_PROMPT_SUPPORT | |
-
-
-
-
+| **============================== <br> Features <br/> ==============================** |||
+| ~~//#define SOFTWARE_DRIVER_ENABLE~~ | ~~#define SOFTWARE_DRIVER_ENABLE~~ | ~~Use for drivers that do not use a dedicated enable pin~~ |
+| ~~//#define MINIMUM_STEPPER_PULSE 2~~ | ~~#define MINIMUM_STEPPER_PULSE 0~~ | ~~0 : Smallest possible width the MCU can produce, compatible with TMC2xxx drivers~~ |
+| ~~//#define MAXIMUM_STEPPER_RATE 250000~~ | ~~//#define MAXIMUM_STEPPER_RATE 250000~~ | ~~5000000 : Maximum for TMC2xxx stepper drivers~~ |
+| ~~//#define BEZIER_CURVE_SUPPORT~~ | ~~#define BEZIER_CURVE_SUPPORT~~ | ~~Support for G5 with XYZE destination and IJPQ offsets.~~ |
+| ~~//#define XY_FREQUENCY_LIMIT      10~~ | ~~#define XY_FREQUENCY_LIMIT      10~~ | ~~Reduce resonance by limiting the frequency of small zigzag infill moves.~~ |
+| ~~//#define BACKLASH_COMPENSATION~~ | ~~#define BACKLASH_COMPENSATION~~ | ~~Adds extra movement to axes on direction-changes to account for backlash~~ |
+| ~~#define BACKLASH_CORRECTION    0.0~~ | ~~#define BACKLASH_CORRECTION    1.0~~ | ~~0.0 = no correction; 1.0 = full correction~~ |
+| ~~//#define BACKLASH_SMOOTHING_MM 3~~ | ~~#define BACKLASH_SMOOTHING_MM 3~~ | ~~Spread backlash correction over multiple segments to reduce print artifacts.~~ |
+| ~~//#define BACKLASH_GCODE~~ | ~~#define BACKLASH_GCODE~~ | ~~Add runtime configuration and tuning of backlash values (M425)~~ |
+| ~~//#define USB_FLASH_DRIVE_SUPPORT~~ | ~~#define USB_FLASH_DRIVE_SUPPORT~~ | ~~Enable USB flash drive support~~ |
+| ~~//#define MINIMUM_STEPPER_POST_DIR_DELAY 650~~ | ~~#define MINIMUM_STEPPER_POST_DIR_DELAY 20~~ | ~~20 : Minimum for TMC2xxx drivers~~ |
+| ~~//#define MINIMUM_STEPPER_PRE_DIR_DELAY 650~~ | ~~#define MINIMUM_STEPPER_PRE_DIR_DELAY 20~~ | ~~20 : Minimum for TMC2xxx drivers~~ |

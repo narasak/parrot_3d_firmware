@@ -41,10 +41,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Update parrot 3d configuration document">
+    <list default="true" id="ef538152-e17c-4a28-8d3f-ef6f9e494a22" name="Default Changelist" comment="Fix noise for 0.9 stepper motor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Marlin/Configuration_adv.h" beforeDir="false" afterPath="$PROJECT_DIR$/Marlin/Configuration_adv.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parrot3D-Configuration.md" beforeDir="false" afterPath="$PROJECT_DIR$/Parrot3D-Configuration.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,6 +128,7 @@
       <workItem from="1608770196496" duration="3786000" />
       <workItem from="1609660255989" duration="20000" />
       <workItem from="1609813348961" duration="177000" />
+      <workItem from="1610848458365" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Parrot 3D Firmware V.1.0.0">
       <created>1597049645130</created>
@@ -271,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608956966421</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix noise for 0.9 stepper motor">
+      <created>1610848631805</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610848631805</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +321,7 @@
     <MESSAGE value="Update git ignore" />
     <MESSAGE value="Initial commit for Firmware 2.0" />
     <MESSAGE value="Update parrot 3d configuration document" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update parrot 3d configuration document" />
+    <MESSAGE value="Fix noise for 0.9 stepper motor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix noise for 0.9 stepper motor" />
   </component>
 </project>

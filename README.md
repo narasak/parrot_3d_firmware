@@ -1,5 +1,5 @@
 # Parrot 3D Printer Firmware
-![Parrot 3D Logo](https://github.com/narasak/parrot_3d/blob/master/img/parrot_3d_logo.svg?raw=true)
+![Parrot 3D Logo](https://github.com/narasak/parrot_3d/blob/main/img/parrot_3d_logo.svg?raw=true)
 
 ## Parrot 3D Firmware 2.x
 
